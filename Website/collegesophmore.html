@@ -1,0 +1,139 @@
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="C:\Users\hoodt\Desktop\Website\css\magnific-popup.css">
+<link rel="stylesheet" type="text/css" href="C:\Users\hoodt\Desktop\Website\css\styles.css">
+<link rel="stylesheet" type="text/css" href="C:\Users\hoodt\Desktop\Website\css\dropdown.css">
+<link rel="stylesheet" type="text/css" href="C:\Users\hoodt\Desktop\Website\css\highschooldropdown.css">
+<link rel="stylesheet" type="text/css" href="C:\Users\hoodt\Desktop\Website\css\modal.css">
+<link rel="icon" type="image/jpg" href="C:\Users\hoodt\Desktop\Website\linkedinphoto.jpg">
+<title>Trenton Hood</title>
+</head>
+<script>
+$(document).ready(function() {
+	$('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Trenton Hood</small>';
+			}
+		}
+	});
+});
+</script>
+<body>
+
+<header>
+<div id="logo-wrapper">
+<a href="C:\Users\hoodt\Desktop\Website\index.html"><img src="C:\Users\hoodt\Desktop\Website\Logo.jpg" id="logo"></a>
+</div>
+
+<div class="contacts">
+	<table class="menuTable">
+		<tr>
+			<td>Contact me by:</td>
+			<td><a href="mailto:hoodtj@gmail.com"><img src="C:\Users\hoodt\Desktop\Website\logo_gmail.png" id="gmail"></img></a></td>
+			<td><a href="https://www.linkedin.com/in/trenton-hood-a1598865"><img src="C:\Users\hoodt\Desktop\Website\In-2C-128px-TM.png" id="linkedin"></img></a></td>
+		</tr>
+	</table>
+	
+	<div id="nav">
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="C:\Users\hoodt\Desktop\Website\index.html">Home</a>
+			<a href="C:\Users\hoodt\Desktop\Website\aboutme.html">About Me</a>
+				<div id="highSchoolMenu">
+					<div class="dropdownHighSchool">
+						<a href="#" onclick="myFunctionHighSchool()" class="dropbtn2">High School Work</a>
+							<div id="highSchoolDropdown" class="dropdown-content-highschool">
+								<a href="C:\Users\hoodt\Desktop\Website\highschoolcgt.html">CGT Work</a>
+								<a href="C:\Users\hoodt\Desktop\Website\highschoolartwork.html">Art work</a>
+							</div>
+					</div>
+				</div>
+				<div id="collegeMenu">
+					<div class="dropdown">
+						<a href="#" onclick="myFunction()" class="dropbtn">College Work</a>
+							<div id="myDropdown" class="dropdown-content">
+								<a href="C:\Users\hoodt\Desktop\Website\collegesophmore.html">Sophmore Year</a>
+								<a href="C:\Users\hoodt\Desktop\Website\collegejunior.html">Junior Year</a>
+								<a href="C:\Users\hoodt\Desktop\Website\collegesenior.html">Senior Year</a>
+							</div>
+					</div>
+				</div>
+			 			<a href="C:\Users\hoodt\Desktop\Website\professionalwork.html">Professional Work</a>
+			 			<a href="C:\Users\hoodt\Desktop\Website\contactme.html">Contact Me</a>
+				</div>
+				<span onclick="openNav()">
+					<div id="menu">
+						<div id="line"></div>
+						<div id="line"></div>
+						<div id="line"></div>
+					</div>
+				</span>
+	</div>	
+</div>
+<h1>College Work</h1>
+</header>
+
+<section>
+	<h2>Sophmore Year</h2>
+		<div class="collegeWork">
+			<div class="popup-gallery">
+		<!--Drawing of dog-->
+					<a href="/Users/trentonhood/Desktop/website_trenton/Work/College/SophmoreYear/HoodP1/dog_drawing.jpg" title="First photo of dog drawing.">
+						<img src="/Users/trentonhood/Desktop/website_trenton/Work/College/SophmoreYear/HoodP1/dog_drawing.jpg" id="image"></a>
+		<!--Drawing of dog.-->
+					<a href="/Users/trentonhood/Desktop/website_trenton/Work/College/SophmoreYear/HoodP1/dog_drawing2.jpg" title="Second photo of dog drawing.">
+						<img src="/Users/trentonhood/Desktop/website_trenton/Work/College/SophmoreYear/HoodP1/dog_drawing2.jpg" id="image"></a>
+		<!--Original spawn comic cover-->
+					<a href="/Users/trentonhood/Desktop/website_trenton/Work/College/SophmoreYear/HoodP1/original_cover.jpg" title="Original comic cover.">
+						<img src="/Users/trentonhood/Desktop/website_trenton/Work/College/SophmoreYear/HoodP1/original_cover.jpg" id="image"></a>
+		<!--The 5x5 section for coloring.-->
+					<a href="/Users/trentonhood/Desktop/website_trenton/Work/College/SophmoreYear/HoodP1/area_to_work.jpg" title="The 5x5 square picked to color.">
+						<img src="/Users/trentonhood/Desktop/website_trenton/Work/College/SophmoreYear/HoodP1/area_to_work.jpg" id="image"></a>
+		<!--Finished Project-->
+					<a href="/Users/trentonhood/Desktop/website_trenton/Work/College/SophmoreYear/HoodP1/hoodp1_finished.jpg" title="Finished result.">
+						<img src="/Users/trentonhood/Desktop/website_trenton/Work/College/SophmoreYear/HoodP1/hoodp1_finished.jpg" id="image"></a>
+			</div>
+		</div>
+		
+	<div class="collegeWork">
+    	 	<h3>Semester Project</h3>
+				<!--Sophmore Semester Project-->
+					<div class="video-wrapper">
+						<iframe width="420" height="315" src="https://www.youtube.com/embed/KfCWRTne950" frameborder="0" allowfullscreen></iframe>
+							<div class="videoInfo">
+								<p>This was an animated video I had to create with two other people. We had to come
+								up with the story all from scratch. The film had to be over a minute long and be developed
+								in 3D Studio Max (3ds Max). This project took us roughly half of a semester to complete it.
+								Our main goal in making this video was to capture suspence and humor.
+								</p>
+					 		</div>					
+					</div>
+	</div>
+</section>
+
+<footer>
+© 2016 Trenton Hood
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\myscripts.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\collegedropdown.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\highschooldropdown.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\jquery.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\jquery.magnific-popup.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\modal.js"></script>
+
+</body>
+</html>

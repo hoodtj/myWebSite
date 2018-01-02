@@ -1,0 +1,126 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="C:\Users\hoodt\Desktop\Website\css\magnific-popup.css">
+<link rel="stylesheet" type="text/css" href="C:\Users\hoodt\Desktop\Website\css\styles.css">
+<link rel="stylesheet" type="text/css" href="C:\Users\hoodt\Desktop\Website\css\dropdown.css">
+<link rel="stylesheet" type="text/css" href="C:\Users\hoodt\Desktop\Website\css\highschooldropdown.css">
+<link rel="stylesheet" type="text/css" href="C:\Users\hoodt\Desktop\Website\css\modal.css">
+<link rel="icon" type="image/jpg" href="C:\Users\hoodt\Desktop\Website\linkedinphoto.jpg">
+<title>Trenton Hood</title>
+</head>
+<script>
+$(document).ready(function() {
+	$('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Trenton Hood</small>';
+			}
+		}
+	});
+});
+</script>
+<body>
+
+<header>
+<div id="logo-wrapper">
+<a href="C:\Users\hoodt\Desktop\Website\index.html"><img src="C:\Users\hoodt\Desktop\Website\Logo.jpg" id="logo"></a>
+</div>
+
+<div class="contacts">
+	<table class="menuTable">
+		<tr>
+			<td>Contact me by:</td>
+			<td><a href="mailto:hoodtj@gmail.com"><img src="C:\Users\hoodt\Desktop\Website\logo_gmail.png" id="gmail"></img></a></td>
+			<td><a href="https://www.linkedin.com/in/trenton-hood-a1598865"><img src="C:\Users\hoodt\Desktop\Website\In-2C-128px-TM.png" id="linkedin"></img></a></td>
+		</tr>
+	</table>
+	
+	<div id="nav">
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="C:\Users\hoodt\Desktop\Website\index.html">Home</a>
+			<a href="C:\Users\hoodt\Desktop\Website\aboutme.html">About Me</a>
+				<div id="highSchoolMenu">
+					<div class="dropdownHighSchool">
+						<a href="#" onclick="myFunctionHighSchool()" class="dropbtn2">High School Work</a>
+							<div id="highSchoolDropdown" class="dropdown-content-highschool">
+								<a href="C:\Users\hoodt\Desktop\Website\highschoolcgt.html">CGT Work</a>
+								<a href="C:\Users\hoodt\Desktop\Website\highschoolartwork.html">Art work</a>
+							</div>
+					</div>
+				</div>
+				<div id="collegeMenu">
+					<div class="dropdown">
+						<a href="#" onclick="myFunction()" class="dropbtn">College Work</a>
+							<div id="myDropdown" class="dropdown-content">
+								<a href="C:\Users\hoodt\Desktop\Website\collegesophmore.html">Sophmore Year</a>
+								<a href="C:\Users\hoodt\Desktop\Website\collegejunior.html">Junior Year</a>
+								<a href="C:\Users\hoodt\Desktop\Website\collegesenior.html">Senior Year</a>
+							</div>
+					</div>
+				</div>
+			 			<a href="C:\Users\hoodt\Desktop\Website\professionalwork.html">Professional Work</a>
+			 			<a href="C:\Users\hoodt\Desktop\Website\contactme.html">Contact Me</a>
+				</div>
+				<span onclick="openNav()">
+					<div id="menu">
+						<div id="line"></div>
+						<div id="line"></div>
+						<div id="line"></div>
+					</div>
+				</span>
+	</div>	
+</div>
+<h1>High School Work</h1>
+</header>
+
+<section>
+	<h2>Art Class</h2>
+		<div class="info">
+			<div class="popup-gallery">
+					<h3>Art Class Assignments</h3>
+						<p>Here are a few images of the work I did while I was in my art class. In my art
+						 class, I had to dig the clay out of a barrel of water and dry it up enough to where
+						 I could use it to do my work.This was all made out of clay besides the last image.
+						 The last image was created from wax.</p>
+			<!--Table Row-->
+				<!--Arm coming out of ground holding fire.-->
+							<a href="/Users/trentonhood/Desktop/website_trenton/Work/HighSchool/3d/trenthandsculpt.jpg" title="An arm coming out of the ground with fire in the palm of the hand.">
+								<img src="/Users/trentonhood/Desktop/website_trenton/Work/HighSchool/3d/trenthandsculpt.jpg" id="image"></a>
+				<!--Pinched bowl(yellow)-->
+							<a href="/Users/trentonhood/Desktop/website_trenton/Work/HighSchool/3d/trentpinch.jpg" title="My first pinched bowl created out of clay.">
+								<img src="/Users/trentonhood/Desktop/website_trenton/Work/HighSchool/3d/trentpinch.jpg" id="image"></a>
+				<!--2nd pinched bowl(grey)-->
+							<a href="/Users/trentonhood/Desktop/website_trenton/Work/HighSchool/3d/trentpinch2.jpg" title="My second pinched bowl with a wavey lip created out of clay.">
+								<img src="/Users/trentonhood/Desktop/website_trenton/Work/HighSchool/3d/trentpinch2.jpg" id="image"></a>
+				<!--Wax Illusion-->						
+							<a href="/Users/trentonhood/Desktop/website_trenton/Work/HighSchool/3d/trentwax.jpg" title="Wax Illusion.">
+								<img src="/Users/trentonhood/Desktop/website_trenton/Work/HighSchool/3d/trentwax.jpg" id="image"></a>
+			</div>
+		</div>
+</section>
+
+<footer>
+© 2016 Trenton Hood
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\myscripts.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\collegedropdown.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\highschooldropdown.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\jquery.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\jquery.magnific-popup.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\modal.js"></script>
+
+</body>
+</html>

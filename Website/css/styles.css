@@ -1,0 +1,226 @@
+﻿header{
+	background-color: #33ccff;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	padding: 20px 0px 20px 0px;
+}
+
+section{
+	text-align: left;
+	margin: 20px 10px 20px 10px;
+	overflow: auto;
+	background-color: #33ccff;
+}
+
+footer{
+	background-color: #33ccff;
+	color: black;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	padding: 0px 0px 0px 10px;
+	overflow: auto;
+}
+
+li{
+	padding: 2px 0px 2px 0px;
+}
+
+#nav{
+	line-height: 30px;
+	padding: 10px 5px 10px 0px;
+	float: right;
+	overflow: auto;
+}
+
+#logo{
+	height: 75px;
+	width: 75px;
+	float: left;
+	margin: 0px 10px 10px 10px;
+	border-radius: 10px;
+}
+
+#principles{
+	text-decoration: underline;
+}
+
+/* Menu button*/
+#line{
+	width: 35px;
+	height: 5px;
+	background-color: black;
+	margin: 6px 0;
+}
+
+#menu{
+	margin-top: 30px;
+}
+
+#menu:hover, #menu:focus{
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+	opacity: 0.7;
+	width: 35px;
+}
+
+/*#contact-options{
+	display: inline;
+	background-color: yellow;
+}*/
+
+/* Adjust size of contact button*/
+#gmail{
+	height: 20px;
+	width: 20px;
+}
+
+#gmail:hover{
+	opacity: 0.7;
+}
+
+/* Adjust size of contact button*/
+#linkedin{
+	height: 16px;
+	width: 20px;
+}
+
+#linkedin:hover{
+	opacity: 0.7;
+}
+
+#welcome{
+	margin: 10px;
+	padding: 10px 20px 10px 0px;
+	text-indent: 25px;
+	text-align: left;
+	background-color: #e6ffff;
+	border-radius: 10px;
+}
+#info{
+	margin: 10px;
+	overflow: auto;
+}
+
+#work{
+	background-color: black;
+	overflow:hidden;
+	clear: left;
+}
+
+#ios{
+	margin: 10px;
+	display: inline;
+	height: 175px;
+	width: 100px;
+	border: 5px solid #6666ff;
+	border-radius: 10px;
+}
+
+#image{
+	margin: 10px;
+	display: inline;
+	height: 125px;
+	width: 125px;
+	border: 5px solid #ffb380;
+	border-radius: 10px;
+}
+
+#image:hover{
+	opacity: 0.7;
+}
+
+.info{
+	padding: 5px;
+	margin: 10px;
+	border-radius: 10px;
+	clear: left;
+	background-color: #b3ffff;
+}
+
+.info:nth-child(odd){
+	background-color: #f2f2f2;
+}
+
+/*Highlight list*/
+.highlights{
+	padding: 3px;
+}
+
+.collegeWork{
+	padding: 15px 15px 15px 15px;
+	margin: 15px;
+	border-radius: 10px;
+	background-color: #f2f2f2;
+}
+
+.collegeWork:nth-child(odd){
+	background-color: #b3ffff;
+}
+
+.video-wrapper{
+	overflow: hidden;
+	padding: 20px 10px 10px 20px;
+	margin: 10px;
+	background-color: #e6ffff;
+
+}
+.videoInfo{
+	width: 100%;
+	overflow: auto;
+	margin: 10px 0px 0px 0px;
+}
+
+/* Position contact table to top right*/
+.contacts{
+	float: right;
+	padding: 0px 10px 0px 0px;
+	position: relative;
+}
+
+/* Menu pops out when button is clicked*/
+.sidenav{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+
+.sidenav a{
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas:focus{
+	color: #f1f1f1;
+}
+
+.closebtn{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 36px !important;
+	margin-right: 50px;
+}
+
+/* If screen is too small*/
+@media screen and (max-height:450px){
+	.sidenav {padding-top:15px; }
+	.sidenav a {font-size: 18px; }
+}
+}

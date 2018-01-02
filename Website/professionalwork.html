@@ -1,0 +1,185 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="C:\Users\hoodt\Desktop\Website\css\magnific-popup.css">
+<link rel="stylesheet" type="text/css" href="C:\Users\hoodt\Desktop\Website\css\styles.css">
+<link rel="stylesheet" type="text/css" href="C:\Users\hoodt\Desktop\Website\css\dropdown.css">
+<link rel="stylesheet" type="text/css" href="C:\Users\hoodt\Desktop\Website\css\highschooldropdown.css">
+<link rel="stylesheet" type="text/css" href="C:\Users\hoodt\Desktop\Website\css\modal.css">
+<link rel="icon" type="image/jpg" href="C:\Users\hoodt\Desktop\Website\linkedinphoto.jpg">
+<title>Trenton Hood</title>
+</head>
+<script>
+$(document).ready(function() {
+	$('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Trenton Hood</small>';
+			}
+		}
+	});
+});
+</script>
+<body>
+
+<header>
+<div id="logo-wrapper">
+<a href="C:\Users\hoodt\Desktop\Website\index.html"><img src="C:\Users\hoodt\Desktop\Website\Logo.jpg" id="logo"></a>
+</div>
+
+<div class="contacts">
+	<table class="menuTable">
+		<tr>
+			<td>Contact me by:</td>
+			<td><a href="mailto:hoodtj@gmail.com"><img src="C:\Users\hoodt\Desktop\Website\logo_gmail.png" id="gmail"></img></a></td>
+			<td><a href="https://www.linkedin.com/in/trenton-hood-a1598865"><img src="C:\Users\hoodt\Desktop\Website\In-2C-128px-TM.png" id="linkedin"></img></a></td>
+		</tr>
+	</table>
+	
+	<div id="nav">
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="C:\Users\hoodt\Desktop\Website\index.html">Home</a>
+			<a href="C:\Users\hoodt\Desktop\Website\aboutme.html">About Me</a>
+				<div id="highSchoolMenu">
+					<div class="dropdownHighSchool">
+						<a href="#" onclick="myFunctionHighSchool()" class="dropbtn2">High School Work</a>
+							<div id="highSchoolDropdown" class="dropdown-content-highschool">
+								<a href="C:\Users\hoodt\Desktop\Website\highschoolcgt.html">CGT Work</a>
+								<a href="C:\Users\hoodt\Desktop\Website\highschoolartwork.html">Art work</a>
+							</div>
+					</div>
+				</div>
+				<div id="collegeMenu">
+					<div class="dropdown">
+						<a href="#" onclick="myFunction()" class="dropbtn">College Work</a>
+							<div id="myDropdown" class="dropdown-content">
+								<a href="C:\Users\hoodt\Desktop\Website\collegesophmore.html">Sophmore Year</a>
+								<a href="C:\Users\hoodt\Desktop\Website\collegejunior.html">Junior Year</a>
+								<a href="C:\Users\hoodt\Desktop\Website\collegesenior.html">Senior Year</a>
+							</div>
+					</div>
+				</div>
+			 			<a href="C:\Users\hoodt\Desktop\Website\professionalwork.html">Professional Work</a>
+			 			<a href="C:\Users\hoodt\Desktop\Website\contactme.html">Contact Me</a>
+				</div>
+				<span onclick="openNav()">
+					<div id="menu">
+						<div id="line"></div>
+						<div id="line"></div>
+						<div id="line"></div>
+					</div>
+				</span>
+	</div>	
+</div>
+<h1>Professional Work</h1>
+</header>
+
+<section>
+	<div class="info">
+			<h2>Pray Together</h2>
+				<h4>Get it on the App Store <a href="https://itunes.apple.com/us/app/pray-together/id950406764?mt=8">here</a>.</h4>
+					<h3>Description</h3>
+						<p><em>Pray Together is social media that allows users to post religious forum topics to be discussed. 
+						It allows users of different beliefs to openly discuss religious topics, post prayer requests, etc.</em>
+						</p>
+							<h3>Highlights of the developing process:</h3>
+								<ul>
+									<li class="highlights">Parse backend.</li>
+									<li class="highlights">Parse backend with database.</li>
+									<li class="highlights">Uses storyboard for UI and application design.</li>
+									<li class="highlights">Uses JSQMessages framework for chat to resemble the appearance of Apple Messages
+															Application.</li>
+									<li class="highlights">Uses Table Views.</li>
+									<li class="highlights">Uses Apple Push Notification.</li>
+									<li class="highlights">Supports iPhone 6, iPhone 6+, iOS 8+.</li>
+								</ul>
+		<div class="popup-gallery">	
+				<h4>Pray Together Snap Shots</h4>
+		<!--Login Screen-->
+					<a href="/Users/trentonhood/Desktop/website_trenton/Work/Professional/PrayTogetherfiles/Login.jpg" title="Login Scren.">
+						<img src="/Users/trentonhood/Desktop/website_trenton/Work/Professional/PrayTogetherfiles/Login.jpg" id="ios"></a>
+		<!--Login Screen-->
+					<a href="/Users/trentonhood/Desktop/website_trenton/Work/Professional/PrayTogetherfiles/CreateUser.jpg" title="Create user screen.">
+						<img src="/Users/trentonhood/Desktop/website_trenton/Work/Professional/PrayTogetherfiles/CreateUser.jpg" id="ios"></a>
+		<!--Master Screen-->
+					<a href="/Users/trentonhood/Desktop/website_trenton/Work/Professional/PrayTogetherfiles/MasterScreen.jpg" title="List of topics users can participate in.">
+						<img src="/Users/trentonhood/Desktop/website_trenton/Work/Professional/PrayTogetherfiles/MasterScreen.jpg" id="ios"></a>
+		<!--Create Topic Screen-->
+					<a href="/Users/trentonhood/Desktop/website_trenton/Work/Professional/PrayTogetherfiles/CreateTopic.jpg" title="Create a new topic screen.">
+						<img src="/Users/trentonhood/Desktop/website_trenton/Work/Professional/PrayTogetherfiles/CreateTopic.jpg" id="ios"></a>
+		<!--Forum Post Screen-->
+					<a href="/Users/trentonhood/Desktop/website_trenton/Work/Professional/PrayTogetherfiles/ForumPosts.jpg" title="Conversation layout.">
+						<img src="/Users/trentonhood/Desktop/website_trenton/Work/Professional/PrayTogetherfiles/ForumPosts.jpg" id="ios"></a>
+		</div>
+	</div>
+
+	<div class="info">
+			<h2>Scrible Scrable</h2>
+				<h4>Get it on the App Store <a href="https://itunes.apple.com/us/app/scribleÂ­scrable/id953614011?mt=8">here</a>.</h4>
+					<h3>Description</h3>
+						<p><em>Scrible Scrable is an application that allows you to draw, paint, and add 
+						drawings and paintings to photos in your photo library. This application also allows you to take pictures.</em></p>
+							<h3>Highlights of the developing process:</h3>
+								<ul>
+									<li class="highlights">Use of 3 different subviews in mainview.</li>
+									<li class="highlights">Draws lines and strokes using Quartz 2D.</li>
+									<li class="highlights">Import photos from image picker.</li>
+									<li class="highlights">Take photo and automatically import to program for editing.</li>
+									<li class="highlights">Able to set brush size and opacity manually.</li>
+									<li class="highlights">Custom RGB color selector.</li>
+									<li class="highlights">Able to use multiple colors.</li>
+									<li class="highlights">Uses storyboard for UI and application design.</li>
+									<li class="highlights">Supports iPhone 6, iPhone 6+, iOS 8+.</li>
+								</ul>
+		<div class="popup-gallery">
+				<h4>Scrible Scrable Snap Shots</h4>
+		<!--Main Screen-->
+					<a href="/Users/trentonhood/Desktop/website_trenton/Work/Professional/scriblescrable/scrible_main_screen.png" title="Main Screen.">
+						<img src="/Users/trentonhood/Desktop/website_trenton/Work/Professional/scriblescrable/scrible_main_screen.png" id="ios"></a>
+		<!--Settings Screen-->
+					<a href="/Users/trentonhood/Desktop/website_trenton/Work/Professional/scriblescrable/scrible_settings.png" title="Brush Options.">
+						<img src="/Users/trentonhood/Desktop/website_trenton/Work/Professional/scriblescrable/scrible_settings.png" id="ios"></a>
+		<!--Camera Options Screen-->
+					<a href="/Users/trentonhood/Desktop/website_trenton/Work/Professional/scriblescrable/scrible_camera_options.png" title="Import options from library or take a photo.">
+						<img src="/Users/trentonhood/Desktop/website_trenton/Work/Professional/scriblescrable/scrible_camera_options.png" id="ios"></a>
+		<!--Image Picker Screen-->
+					<a href="/Users/trentonhood/Desktop/website_trenton/Work/Professional/scriblescrable/scrible_image_picker.png" title="Image picker for  saved photo's on device.">
+						<img src="/Users/trentonhood/Desktop/website_trenton/Work/Professional/scriblescrable/scrible_image_picker.png" id="ios"></a>
+		<!--Screen Shot Edit Screen-->
+					<a href="/Users/trentonhood/Desktop/website_trenton/Work/Professional/scriblescrable/scrible_screenshot_edit.png" title="Writing on a saved screen shot on the device.">
+						<img src="/Users/trentonhood/Desktop/website_trenton/Work/Professional/scriblescrable/scrible_screenshot_edit.png" id="ios"></a>
+		<!--Photo Edit Screen-->
+					<a href="/Users/trentonhood/Desktop/website_trenton/Work/Professional/scriblescrable/scrible_photo_edit.png" title="Writing on a picture that was just taken.">
+						<img src="/Users/trentonhood/Desktop/website_trenton/Work/Professional/scriblescrable/scrible_photo_edit.png" id="ios"></a>
+		<!--Saved Image Screen-->
+					<a href="/Users/trentonhood/Desktop/website_trenton/Work/Professional/scriblescrable/scrible_image_saved.png" title="Confirmation of photo being saved.">
+						<img src="/Users/trentonhood/Desktop/website_trenton/Work/Professional/scriblescrable/scrible_image_saved.png" id="ios"></a>
+		</div>
+	</div>
+
+</section>
+
+<footer>
+© 2016 Trenton Hood
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\myscripts.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\collegedropdown.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\highschooldropdown.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\jquery.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\jquery.magnific-popup.js"></script>
+<script src="C:\Users\hoodt\Desktop\Website\js\modal.js"></script>
+
+</body>
+</html>
